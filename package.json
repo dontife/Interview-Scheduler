@@ -46,5 +46,8 @@
       "<rootDir>/node_modules/",
       "<rootDir>/.git/"
     ]
+  },
+  "optionalDependencies": {
+    "babel-loader": "8.1.0"
   }
 }
