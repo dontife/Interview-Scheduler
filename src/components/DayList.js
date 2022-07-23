@@ -10,10 +10,8 @@ export default function DayList(props) {
               spots={list.spots}
               selected={list.name === props.day}
               setDay={props.setDay}                  
-            
             />            
         )
-
     })
     return(
         <ul>
