@@ -7,6 +7,8 @@ import DayList from "../src/components/DayList";
 import InterviewerListItem from "../src/components/InterviewerListItem";
 import InterviewerList from "../src/components/InterviewerList";
 import Appointment from "../src/components/appointment/index";
+import Header from "../src/components/appointment/Header"
+import Empty from "../src/components/appointment/Empty"
 
 import "index.scss";
 
@@ -143,3 +145,5 @@ storiesOf('Appointment', module)
   })
   .add("Appointment", () => <Appointment />)
   .add("Appointment with Time", () => <Appointment time='12pm'/>)
+  .add("Header", () => <Header time='12pm'/>)
+  .add("Empty", () => <Empty  onAdd={action("onAdd")} />)
