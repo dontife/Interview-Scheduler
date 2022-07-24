@@ -38,8 +38,8 @@ export default function Application(props) {
       {/* Integrate the dayList component into our application components using useState */}
         <DayList
           days={days}
-          day={date}
-          setDay={setDay}
+          value={day}
+          onChange={setDay}
         />
       </nav>
       <img
