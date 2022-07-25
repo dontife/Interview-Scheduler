@@ -9,6 +9,8 @@ import InterviewerList from "../src/components/InterviewerList";
 import Appointment from "../src/components/appointment/index";
 import Header from "../src/components/appointment/Header"
 import Empty from "../src/components/appointment/Empty"
+import Show from "../src/components/appointment/Show"
+import Confirm from "../src/components/appointment/Confirm"
 
 import "index.scss";
 
@@ -147,3 +149,6 @@ storiesOf('Appointment', module)
   .add("Appointment with Time", () => <Appointment time='12pm'/>)
   .add("Header", () => <Header time='12pm'/>)
   .add("Empty", () => <Empty  onAdd={action("onAdd")} />)
+    // Initiates storybook and register our Show component
+  .add("Show", () => <Show student='Lydia Miller-Jones' interviewer={interviewers} onEdit={action("onEdit")} onDelete={action("onDelete")} />)
+  .add("Confirm", () => <Confirm  message="Delete the appointment?" onConfirm={action("onConfirm")} onCancel={action("onCancel")}/>)
