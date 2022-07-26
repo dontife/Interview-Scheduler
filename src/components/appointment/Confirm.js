@@ -1,5 +1,6 @@
 import React from 'react'
 import Button from '../Button'
+import InterviewerList from '../InterviewerList'
 
 //allows a user to confirm a destructive action
 export default function Confirm(props){
