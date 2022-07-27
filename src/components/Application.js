@@ -44,13 +44,20 @@ const appointments = {
   }
 };
 
-const appointmentList = Object.values(appointments).map((item) => (
-  <Appointment key={item.id} {...item} />));
 
 export default function Application(props) {
-  const [day, setDay] = useState('Monday');
-  const [days, setDays] = useState([]);
-
+  // const [day, setDay] = useState('Monday');
+  // const [days, setDays] = useState([]);
+  const [state, setState] = useState({
+    day: "Monday",
+    days: [],
+    appointments: {}
+  });
+  
+  const setDay = day => setState({ ...state, day });
+  const setDays = (days) =>setState(prev => ({ ...prev, days }));
+  const appointmentList = Object.values(appointments).map((item) => (
+    <Appointment key={item.id} {...item} />));
 
   useEffect(() => {
     axios.get("/api/days")
@@ -73,8 +80,8 @@ export default function Application(props) {
 
       {/* Integrate the dayList component into our application components using useState */}
         <DayList
-          days={days}
-          value={day}
+          days={state.days}
+          value={state.day}
           onChange={setDay}
         />
       </nav>
