@@ -2,7 +2,6 @@ import React from 'react'
 
 //allows a user to see an existing appointment
 export default function(props) {
-   console.log('5', props);
     return (
       <main className="appointment__card appointment__card--show">
         <section className="appointment__card-left">
