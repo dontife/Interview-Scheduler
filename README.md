@@ -5,14 +5,20 @@ Interview Scheduler is a responsive single-page application (SPA) build with Rea
 React, Webpack, Babel, Axios, Storybook, Jest, Cypress, Classnames.
 
 ## Final Product
+
+### Scheduler home view
 !["Scheduler home view"](https://raw.githubusercontent.com/dontife/Interview-Scheduler/90850f96fbfa0d7b0a9810695cec37c5f46a07b2/docs/Screen%20Shot%202022-07-30%20at%2012.08.31%20PM.png)
 
+### Edit an appointment
 !["Edit an appointment"](https://raw.githubusercontent.com/dontife/Interview-Scheduler/90850f96fbfa0d7b0a9810695cec37c5f46a07b2/docs/Screen%20Shot%202022-07-30%20at%2012.08.19%20PM.png)
 
+### Confirmation before deleting an appointment
 !["Confirmation before deleting an appointment"](https://raw.githubusercontent.com/dontife/Interview-Scheduler/90850f96fbfa0d7b0a9810695cec37c5f46a07b2/docs/Screen%20Shot%202022-07-30%20at%2012.09.05%20PM.png)
 
+### Form Validation - student name not inputted
 !["Form Validation- student name not inputted"](https://raw.githubusercontent.com/dontife/Interview-Scheduler/90850f96fbfa0d7b0a9810695cec37c5f46a07b2/docs/Screen%20Shot%202022-07-30%20at%2012.09.36%20PM.png)
 
+### Form Validation- interviewer not selected
 !["Form Validation- interviewer not selected"](https://raw.githubusercontent.com/dontife/Interview-Scheduler/90850f96fbfa0d7b0a9810695cec37c5f46a07b2/docs/Screen%20Shot%202022-07-30%20at%2012.09.52%20PM.png)
 
 ## Setup
