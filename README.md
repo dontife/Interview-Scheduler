@@ -1,8 +1,17 @@
 # Interview Scheduler
+Interview Scheduler is a responsive single-page application (SPA) build with React. A user can create, edit and delete interview appointments for a specific day of the week.
+
+## Stack
+React, Webpack, Babel, Axios, Storybook, Jest, Cypress, Classnames.
+
+## Final Product
+
 
 ## Setup
+- Fork this repository
+- Clone your repositiroy onto your local device.
+- Install dependencies with `npm install`.
 
-Install dependencies with `npm install`.
 
 ## Running Webpack Development Server
 
@@ -20,4 +29,39 @@ npm test
 
 ```sh
 npm run storybook
+```
+## Running Interview Scheduler API PostgreSQL Database
+Visit the repository below and follow the README.md file:
+```sh
+https://github.com/lighthouse-labs/scheduler-api
+```
+
+## Dependencies
+```sh
+"axios": "^0.27.2",
+"classnames": "^2.2.6",
+"fsevents": "^1.2.9",
+"normalize.css": "^8.0.1",
+"react": "^16.9.0",
+"react-dom": "^16.9.0",
+"react-scripts": "3.0.0"
+```
+
+
+## DevDependencies
+```sh
+"@babel/core": "^7.4.3",
+"@storybook/addon-actions": "^5.0.10",
+"@storybook/addon-backgrounds": "^5.0.10",
+"@storybook/addon-links": "^5.0.10",
+"@storybook/addons": "^5.0.10",
+"@storybook/react": "^5.0.10",
+"@testing-library/jest-dom": "^4.0.0",
+"@testing-library/react": "^8.0.7",
+"@testing-library/react-hooks": "^8.0.0",
+"babel-loader": "^8.0.5",
+"cypress": "^9.7.0",
+"node-sass": "npm:sass@^1.52.3",
+"prop-types": "^15.8.1",
+"react-test-renderer": "^16.9.0"
 ```
