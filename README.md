@@ -44,10 +44,10 @@ npm test
 ```sh
 npm run storybook
 ```
-## Running Interview Scheduler API PostgreSQL Database
-Visit the repository below and follow the README.md file:
+## Running JSON Server
+Visit the website below and follow the instructions:
 ```sh
-https://github.com/lighthouse-labs/scheduler-api
+https://www.npmjs.com/package/json-server
 ```
 
 ## Dependencies
